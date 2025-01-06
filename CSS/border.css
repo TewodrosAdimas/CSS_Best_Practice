@@ -1,0 +1,28 @@
+/* Global Styles */
+body {
+    background-color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: white; /* Example of adding a contrasting color */
+    margin-top: 20px;
+}
+
+.border{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 5%;  /*distance between selectors*/
+}
+
+h2{
+    /*  padding distance between text and border */ 
+    padding: 50% 0 0 25%;
+
+}
