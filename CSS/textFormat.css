@@ -1,0 +1,21 @@
+body{
+    background-color: darkgray;
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration-line:line-through;
+    text-decoration-color: yellow;
+    text-decoration-style: double;
+
+}
+
+.text{
+    font-style: oblique;
+    font-weight:200;
+    line-height: 2;
+    text-transform: capitalize;
+    text-indent: 30px;
+}
