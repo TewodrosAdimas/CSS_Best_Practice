@@ -1,0 +1,43 @@
+body {
+    background-color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: black;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal {
+    display: flex;
+    gap: 20px; /* Space between blocks */
+    margin-bottom: 50px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between vertical elements */
+}
+
+.block, .vert {
+    width: 100px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+#block2 {
+    background-color: blueviolet;
+}
+
+#vert2 {
+    background-color: lightcoral;
+}
