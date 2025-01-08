@@ -1,0 +1,68 @@
+body{
+    background-color: darkgray;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(177, 252, 117);
+    border-radius: 100px;
+}
+
+button:hover{
+    box-shadow: 0 0 50px 0 rgb(4, 0, 255) inset, 0 0 50px 0 rgb(20, 86, 230); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: scale(1.6);
+}
+
+.container{
+    display: column; /* Flexbox layout */
+    justify-content: center; /* Centers the divs horizontally */
+    gap: 20px; /* Adds space between the divs */
+    margin-top: 20px; /* Adds spacing above the row */
+}
+
+.hor-port{
+    background-color: hsl(236, 72%, 47%);
+    text-align: center;
+    border-radius: 100px;
+    width: 100px;
+    padding: 14px;
+    margin: 10px;
+    
+}
+
+
+@media screen and (orientation:portrait) {
+    .container{
+        display: flex; /* Flexbox layout */
+        justify-content: center; /* Centers the divs horizontally */
+        gap: 20px; /* Adds space between the divs */
+        margin-top: 20px; /* Adds spacing above the row */
+    }
+}
+
+@media all and (max-width:500px){
+    button{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(34, 59, 201);
+        border-radius: 100px;
+    }
+    
+    button:hover{
+        box-shadow: 0 0 10px 0 #b0dd34 inset, 0 0 10px 0 #a0ce22; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: scale(1.6);
+    }   
+}
