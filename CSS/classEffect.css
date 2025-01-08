@@ -1,0 +1,47 @@
+body {
+    background-color: darkgrey;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    margin: 20px auto;
+    width: 350px; /* Adjusted for wider paragraphs */
+    background-color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+div:hover {
+    transform: scale(1.05);
+    background-color: lightgrey;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(128, 15, 0);
+}
+
+p {
+    text-align: left;
+    line-height: 1.6; /* Improved readability */
+}
+
