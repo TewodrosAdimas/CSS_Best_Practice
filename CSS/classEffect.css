@@ -45,3 +45,38 @@ p {
     line-height: 1.6; /* Improved readability */
 }
 
+button{
+    width: 150px;
+    margin-left: 45%;
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 100px;
+    color: rgb(9, 3, 65);
+    text-shadow: 50;
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: 0 0 10px 0 yellow inset, 0 0 10px 0 green; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: scale(1.05);
+
+
+}
+
+button:active{
+    box-shadow: 0 0 10px 0 rgb(81, 24, 214) inset, 0 0 10px 0 #e47831; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: scale(1.05);
+
+
+}
+
+button:focus{
+    box-shadow: 0 0 10px 0 rgb(81, 24, 214) inset, 0 0 10px 0 #e47831; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: scale(1.05);
+
+
+}
